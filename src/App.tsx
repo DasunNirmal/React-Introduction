@@ -1,56 +1,8 @@
 import './App.css'
 import {useState} from "react";
 import {Customer} from "./component/Customer.tsx";
-/*import {useState} from "react";*/
-/*import ButtonComponent from "./component/ButtonComponent.tsx";*/
-/*import {useState} from "react";*/
-/*import Subject from "./component/Subject.tsx";*/
-/*import Item from "./component/item.tsx";*/
-/*import Button  from './Button.tsx';*/
 
 function App() {
-    /*const bool : boolean = false;*/
-    /*const itemsArray =  [];
-
-    for (const item of itemsList) {
-        itemsArray.push(
-            <Item title={ item.title } desc={item.desc} />
-        );
-    }*/
-
-    /*Conditional Rendering*/
-    /*const isLoggedIn : boolean = true;*/
-
-    /*let content : ReactElement;
-
-    if (isLoggedIn) {
-        content = <Dashboard/>
-    } else {
-        content = <LoginComponent/>
-    }*/
-
-    /*const [content, setContent] = useState("Default Value")*/
-
-    /*function handleClick(type: string) {
-        console.log(type);
-        /!*alert((type + ' Clicked'));*!/
-        setContent(type);
-    }*/
-
-    /*const [customer,setCustomer] = useState({
-        firstName: "",
-        lastName: "",
-    })
-    const [firstName, setFirstName] = useState("");
-    const [lastName, setLastName] = useState("");
-
-    function handleOnChange() {
-        setCustomer({
-            ...customer,
-            firstName: firstName,
-            lastName: lastName,
-        })
-    }*/
 
     const [customers, setCustomers] = useState<Customer[]>([]);
     const [name, setName] = useState("");
@@ -96,73 +48,5 @@ function App() {
       </>
   )
 }
-
-{/*<input name="firstName" type="text" placeholder="First Name"
-                 onChange={(e) => setFirstName(e.target.value)}/><br/><br/>
-          <input name="lastName" type="text" placeholder="Last Name"
-                 onChange={(e) => setLastName(e.target.value)}/><br/><br/>
-          <button onClick={handleOnChange}>Submit</button>
-          <p>
-              Hello {customer.firstName} {customer.lastName}
-          </p>*/}
-
-/*const itemsList = [
-    {
-        title: 'RAD',
-        desc: 'hi welcome to rad'
-    },
-    {
-        title: 'RAD',
-        desc: 'hi welcome to rad'
-    },
-    {
-        title: 'RAD',
-        desc: 'hi welcome to rad'
-    }
-];*/
-{/*{bool ? 'true' : 'false'}*/}
-
-{/*<Button></Button>*/}
-
-{/*using props*/}
-{/*
-        <Item title={itemsList[0].title} desc={itemsList[0].desc}></Item>
-        <Item title={itemsList[1].title} desc={itemsList[1].desc}></Item>
-        <Item title={itemsList[2].title} desc={itemsList[2].desc}></Item>
-        */}
-
-{/*using 3dot operator*/}
-{/*
-        <Item {...itemsList[0]}></Item>
-        <Item {...itemsList[1]}></Item>
-        <Item {...itemsList[2]}></Item>
-        */}
-{/*{itemsList.map(item => {
-            <Item title={item.title}  desc={item.desc}/>
-        })}*/}
-{/*{itemsArray}*/}
-
-{/*Conditional Rendering Component*/}
-{/*{content}*/}
-{/*{isLoggedIn ? <Dashboard/> : <LoginComponent/>}*/}
-
-{/*Children props*/}
-{/*{<ButtonComponent>Click Me</ButtonComponent>}*/}
-
-{/*Task*/}
-{/*<Subject name = 'RAD'>subject</Subject>
-        <Subject name = 'RAD'>subject</Subject>
-        <Subject name = 'RAD'>subject</Subject>*/}
-
-
-{/*{<ButtonComponent name ="Dashboard" onClick = {handleClick}></ButtonComponent>}
-        {<ButtonComponent name ="Add Customer" onClick = {handleClick}></ButtonComponent>}
-        {<ButtonComponent name ="Delete Customer" onClick = {handleClick}></ButtonComponent>}
-        <br/>
-        {content}*/}
-{/*{<ButtonComponent></ButtonComponent>}
-        {<ButtonComponent></ButtonComponent>}*/}
-
-{/*Creating a Form*/}
 
 export default App
