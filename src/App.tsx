@@ -25,8 +25,10 @@ function App() {
     }
 
     function updateCustomer() {
-        const updatedCustomer = customers.map((customer) => customer.email === email ? customers : customer);
+        const updatedCustomer = customers.map((customers => customers.email === email ?
+            {...customers, name:name,email:email,phone:phone} : customers));
         console.log(updatedCustomer);
+        setCustomers(updatedCustomer)
     }
 
   return (
