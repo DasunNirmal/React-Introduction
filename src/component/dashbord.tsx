@@ -1,7 +1,7 @@
-export default function Dashboard() {
-    return (
-        <>
-            <h2>Dash Board Component</h2>
-        </>
-    )
-}
+// export default function Dashboard() {
+//     return (
+//         <>
+//             <h2>Dash Board Component</h2>
+//         </>
+//     )
+// }
