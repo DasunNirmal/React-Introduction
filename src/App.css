@@ -32,11 +32,9 @@
     animation: logo-spin infinite 20s linear;
   }
 }
-
 .card {
   padding: 2em;
 }
-
 .read-the-docs {
   color: #888;
 }
@@ -52,9 +50,40 @@
   height: 4em;
   width: 160px;
   font-size: 14px;
-  margin-right: 20px;
   border-radius: 26px;
 }
 .inputCSS:hover {
   border: 2px solid #535bf2;
 }
+.navbar {
+  width: 98dvw;
+  background-color: #333;
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.navbar-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.navbar-item {
+  margin: 0 1em;
+}
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+  margin-right: 5.7em;
+}
+.navbar-link:hover {
+  color: #00bcd4;
+  font-size: 18px;
+}
+
