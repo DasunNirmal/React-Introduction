@@ -42,7 +42,7 @@
 }
 .inputCSS {
   height: 3em;
-  width: 400px;
+  width: 600px;
   font-size: 16px;
   border: none;
   background-color: #213547;
@@ -50,7 +50,7 @@
 }
 .buttonCSS {
   height: 4em;
-  width: 150px;
+  width: 160px;
   font-size: 14px;
   margin-right: 20px;
   border-radius: 26px;
