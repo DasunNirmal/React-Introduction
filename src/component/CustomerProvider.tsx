@@ -1,5 +1,5 @@
 import {createContext, useState} from "react";
-import {Customer} from "./Customer.tsx";
+import {Customer} from "../model/Customer.tsx";
 
 export const CustomerContext = createContext();
 

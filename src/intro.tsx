@@ -259,3 +259,20 @@ import {Customer} from "./component/Customer.tsx";*/
 //     )
 // }
 // export default App
+
+
+// import './App.css'
+// import {useReducer} from "react";
+// import {CustomerReducer, initialState} from "./reducers/CustomerReducer.ts";
+//
+// function App() {
+//     const [count,dispatch] = useReducer(CustomerReducer,initialState);
+//     return (
+//         <>
+//             {count}
+//             <button onClick={() => dispatch({type: 'ADD',payload:1})}>ADD</button>
+//             <button onClick={() => dispatch({type: 'REMOVE',payload:1})}>REMOVE</button>
+//         </>
+//     )
+// }
+// export default App
